@@ -9,7 +9,7 @@ import os.path as osp
 
 
 # load expression basis
-def LoadExpBasis(bfm_folder="BFM"):
+def LoadExpBasis(bfm_folder="third_party/CropPose/BFM"):
     n_vertex = 53215
     Expbin = open(osp.join(bfm_folder, "Exp_Pca.bin"), "rb")
     exp_dim = array("i")

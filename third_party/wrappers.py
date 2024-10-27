@@ -26,7 +26,7 @@ class WrapperNeRFFaceLighting(torch.nn.Module):
     def __init__(
         self,
         device,
-        eg3d_pkl="checkpoints/NeRFFaceLighting.pkl",
+        eg3d_pkl="third_party/CropPose/checkpoints/NeRFFaceLighting.pkl",
         verbose=False,
     ):
         self.device = device

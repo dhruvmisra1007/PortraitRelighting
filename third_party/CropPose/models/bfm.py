@@ -32,7 +32,7 @@ class SH:
 class ParametricFaceModel:
     def __init__(
         self,
-        bfm_folder="./BFM",
+        bfm_folder="./PortraitRelighting/third_party/CropPose/BFM",
         recenter=True,
         camera_distance=10.0,
         init_lit=np.array([0.8, 0, 0, 0, 0, 0, 0, 0, 0]),

@@ -35,7 +35,7 @@ def main():
 def initialize_models(device):
     cropposer = ImageCropPoser(device).to(device)
     relighting = Relighting(device).to(device)
-    relighting.load_state_dict(torch.load("checkpoints/model.pth"))
+    relighting.load_state_dict(torch.load("third_party/CropPose/checkpoints/model.pth"))
     dpr = WrapperLightingEstimator(device).to(device)
     return cropposer, relighting, dpr
 

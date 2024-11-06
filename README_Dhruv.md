@@ -5,7 +5,7 @@ This project implements the paper on real-time 3D-aware portrait video relightin
 
 ## Prerequisites
 - **Google Colab**: This implementation has been optimized for Google Colab.
-- **Google Drive**: Ensure you have the necessary pre-trained models and dataset saved on your Google Drive.
+- **Google Drive**: Ensure you have the necessary pre-trained models and dataset saved on your Google Drive. (Link: https://drive.google.com/drive/folders/1ux4xKfm050XTiU2fuZMgMvILHxsTxn_L?usp=drive_link)
 
 ### Required Files
 The following files are required:
